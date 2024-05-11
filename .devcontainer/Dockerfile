@@ -19,4 +19,4 @@ RUN docker-php-ext-install mysqli pdo pdo_mysql
 RUN echo 'export XDEBUG_CONFIG="client_port=9003"' >> /home/vscode/.bashrc
 
 # run 'phpprj' application inside Apache
-RUN ln -s /workspaces/php-mariadb/phpprj /var/www/html/phpprj
+# RUN ln -s /workspaces/php-mariadb/phpprj /var/www/html/phpprj

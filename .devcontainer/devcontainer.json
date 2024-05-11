@@ -21,10 +21,10 @@
 				"ms-azuretools.vscode-docker"
 			]
 		}
-	}
+	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "sudo chmod a+x \"$(pwd)\" && sudo rm -rf /var/www/html && sudo ln -s \"$(pwd)\" /var/www/html"
+	"postCreateCommand": "sudo ln -s \"$(pwd)\"/phpprj /var/www/html/phpprj"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
