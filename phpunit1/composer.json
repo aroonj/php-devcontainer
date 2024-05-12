@@ -1,0 +1,21 @@
+{
+    "name": "example/demo",
+    "description": "Demo",
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    },
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Example\\Demo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "aroonj",
+            "email": "aroon.janthong@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
